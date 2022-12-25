@@ -1,0 +1,319 @@
+body {
+    background-image: url(/img/bg.svg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+width: 150px;
+height: 75px;
+left: 460px;
+top: 78px;
+
+font-family: 'Manrope', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 75px;
+/* identical to box height, or 300% */
+
+letter-spacing: -0.04em;
+text-transform: capitalize;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+.main-bg {
+    display: block;
+width: 1436px;
+height: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+
+}
+
+.main-banner {
+    position: absolute;
+width: 508.42px;
+height: 590.29px;
+left: 1080.41px;
+top: 270px;
+
+}
+
+.like{
+    position: absolute;
+width: 52px;
+height: 21px;
+left: 1240px;
+top: 740px;
+
+font-family: 'Cousine', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.like-count{
+    position: absolute;
+width: 134.82px;
+height: 31.61px;
+left: 1240px;
+top: 770px;
+
+font-family: 'Cousine', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 27.8944px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #F9F2FF;
+}
+
+.publish-text {
+    position: absolute;
+    width: 191px;
+    height: 21px;
+    left: 1379px;
+    top: 740px;
+    
+    font-family: 'Cousine', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.publish-date {
+    position: absolute;
+width: 174px;
+height: 32px;
+left: 1379px;
+top: 770px;
+
+font-family: 'Cousine', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 27.8944px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #F9F2FF;
+}
+
+.slogan{
+    position: absolute;
+width: 551.47px;
+height: 300.71px;
+left: 450px;
+top: 251px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 78.0376px;
+line-height: 100px;
+/* or 128% */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.slogan2{
+    position: absolute;
+width: 352.22px;
+height: 54.19px;
+left: 460px;
+top: 650px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13.5213px;
+line-height: 35px;
+/* or 259% */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.btn {
+    position: absolute;
+width: 198.06px;
+height: 63.68px;
+left: 460px;
+top: 776px;
+
+color: rgb(219, 200, 200);
+
+opacity: 0.8;
+filter: blur(0.5px);
+filter: drop-shadow(-2px 15px 50px rgb(132, 238, 245));
+
+}
+
+.exp{
+    position: absolute;
+width: 100.9px;
+height: 44.38px;
+left: 50px;
+top: -11px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 42px;
+/* or 189% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+/* FOOTER*/
+footer {
+    position: absolute;
+    width: 1355px;
+    height: 133px;
+    left: 310px;
+    top: 1020px;
+    
+    border-radius: 40px;
+    
+    background: #1C1C1E;
+}
+.social {
+    position: relative;
+    top: 15px;
+    padding-right: 100px;
+}
+
+.social img {
+    
+    margin-left: 140px;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+}
+
+.telegram{
+    width: 100px;
+    height: 100px;
+}
+
+.twiter {
+    width: 100px;
+    height: 100px;
+}
+.slack {
+    width: 100px;
+    height: 100px;
+}
+.youtube{
+    width: 100px;
+    height: 100px;
+}
+
+/* Menu*/
+
+  .menu-main {
+position: relative;
+    width: 539px;
+height: 3px;
+left: 75px;
+top: 120px;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
+ 
+  .menu-main li {
+    display: inline;
+    margin-right: -4px;
+  }
+  .menu-main a {
+    text-decoration: none;
+    display: inline;
+    padding: 15px 30px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: white;
+    transition: .3s linear;
+  }
+  
+  li {
+    width: 539px;
+height: 3px;
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 19.7259px !important;
+line-height: 15.5%;
+/* identical to box height, or 3px */
+
+
+color: #FFFFFF;
+  }
+
+  .box-go {
+    box-sizing: border-box;
+
+position: absolute;
+width: 94px;
+height: 40px;
+left: 1485px;
+top: 115px;
+
+border: 1px solid #C584F5;
+border-radius: 6px;
+  }
+
+  h4 {
+    color: blanchedalmond;
+    text-align: center;
+    margin: 10px
+  }
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Inter&family=Montserrat&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Inter&family=Manrope&family=Montserrat&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Inter&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&family=Inter&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
